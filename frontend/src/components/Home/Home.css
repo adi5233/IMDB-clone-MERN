@@ -1,0 +1,26 @@
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2vh;
+  margin-left: 0.3vw;
+  width: 10vw;
+}
+.rating > h6 {
+  text-decoration: none;
+  color: yellow;
+  margin-left: 8px;
+  font-size: 0.9rem;
+}
+
+.movieCard:hover {
+  transform: translateY(-1vmax);
+}
+
+.grid {
+  margin-top: 2vh;
+}
+.movieContainer {
+  text-decoration: none;
+}
