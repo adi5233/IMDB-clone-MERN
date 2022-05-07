@@ -62,6 +62,7 @@ const Watchlist = () => {
 
   return (
     <Fragment>
+      <MetaData title={`Watchlist - IMDB`} />
       {watchlistMovies.length === 0 ? (
         <div className="emptyWatchlist">
           <Typography>No Movies in Your Watchlist</Typography>
@@ -69,7 +70,6 @@ const Watchlist = () => {
         </div>
       ) : (
         <Fragment>
-          <MetaData title={`IMDB`} />
           <Container>
             <div className={classes.root}>
               <Grid

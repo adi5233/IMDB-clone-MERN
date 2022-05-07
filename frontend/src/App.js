@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Layout/Navbar";
 import Footer from "./components/Layout/Footer/Footer";
+import About from "./components/Layout/About/About";
 import NotFound from "./components/Layout/Not Found/NotFound";
 import Home from "./components/Home/Home";
 import MovieDetails from "./components/Movie/MovieDetails";
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/signup" element={<Signup />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/movie/:id" element={<MovieDetails />} />
+        <Route exact path="/about" element={<About />} />
         <Route element={<ProtectedRoute />}>
           <Route exact path="/watchlist" element={<Watchlist />} />
         </Route>

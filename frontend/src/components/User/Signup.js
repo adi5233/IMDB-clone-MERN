@@ -4,6 +4,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, register } from "../../actions/userAction";
 import { useAlert } from "react-alert";
+import MetaData from "../Layout/MetaData";
 import LockOpenIcon from "@material-ui/icons/Lock";
 import PersonIcon from "@material-ui/icons/Person";
 import MailOutlinedIcon from "@material-ui/icons/MailOutlined";
@@ -38,6 +39,7 @@ const Signup = () => {
 
   return (
     <Fragment>
+      <MetaData title="Sign up - IMDb" />;
       {loading ? (
         <Loader />
       ) : (

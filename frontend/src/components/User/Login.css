@@ -42,7 +42,6 @@
   padding: 2vmax;
   justify-content: space-evenly;
   height: 70%;
-  transition: all 0.5s;
 }
 
 .signInForm > div > input {
@@ -117,8 +116,7 @@
     height: 40vh;
   }
   .SignIn-Right-Box {
-    width: 55vw;
-    /* margin-right: 4vw; */
+    width: 58vw;
   }
   .signInForm > input {
     width: 33vh;

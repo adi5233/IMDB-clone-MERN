@@ -47,7 +47,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Movies = () => {
-  <MetaData title="MOVIES" />;
   const { keyword } = useParams();
   const classes = useStyles();
   const alert = useAlert();
@@ -83,6 +82,7 @@ const Movies = () => {
 
   return (
     <Fragment>
+      <MetaData title="Movies- IMDb" />
       <div className="filter-box">
         <div className="filter-genre">
           <FormControl variant="filled" className={classes.formControl}>

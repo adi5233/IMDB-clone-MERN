@@ -79,7 +79,7 @@ const MovieDetails = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title={`${movie.title} -- IMDB`} />
+          <MetaData title={`${movie.title} - IMDB`} />
           <Container>
             <div className="MovieDetails">
               <div className="MovieDetails-Header">

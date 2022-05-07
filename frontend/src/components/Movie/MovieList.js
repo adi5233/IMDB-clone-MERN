@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     height: 330,
     position: "relative",
     "&:hover": {
-      transform: `translate(${5}px, ${10}px)`,
+      transform: `translate(${7}px, ${-7}px)`,
     },
   },
   image: {

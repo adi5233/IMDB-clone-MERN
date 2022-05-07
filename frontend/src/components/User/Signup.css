@@ -42,7 +42,6 @@
   padding: 2vmax;
   justify-content: space-evenly;
   height: 70%;
-  transition: all 0.5s;
 }
 
 .signUpForm > div > input {
@@ -108,7 +107,7 @@
 
 @media screen and (max-width: 600px) {
   .SignUpContainer {
-    height: 800px;
+    height: 900px;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -117,6 +116,9 @@
   .SignUp-Right {
     width: 66vw;
     height: 40vh;
+  }
+  .SignUp-Right-Box {
+    width: 58vw;
   }
   .signUpForm > input {
     width: 33vh;
