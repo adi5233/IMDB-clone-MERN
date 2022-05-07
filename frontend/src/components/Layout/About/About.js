@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutSection.css";
+import "./About.css";
 import { Typography, Avatar } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
