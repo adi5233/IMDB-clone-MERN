@@ -15,3 +15,8 @@ JWT_SECRET=
 JWT_EXPIRE=
 COOKIE_EXPIRE=
 \_fill each filed with your info respectively*
+
+
+# Run
+1. cd IMDB => cd frontend => npm start
+2. cd IMDB => npm run dev
