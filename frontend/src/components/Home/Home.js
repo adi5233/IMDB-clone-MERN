@@ -17,6 +17,7 @@ import AddIcon from "@material-ui/icons/Add";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    marginTop: '1rem',
   },
   margin: {
     margin: theme.spacing(1),
@@ -110,7 +111,6 @@ const Home = () => {
               justifyContent="center"
               alignItems="center"
               spacing={2}
-              className="grid"
             >
               {movies &&
                 movies.map((movie) => (

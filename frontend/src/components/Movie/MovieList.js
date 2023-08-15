@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     height: 330,
     position: "relative",
     "&:hover": {
-      transform: `translate(${7}px, ${-7}px)`,
+      transform: `translate(${2}px, ${-2}px)`,
     },
   },
   image: {
@@ -111,7 +111,7 @@ const MovieList = () => {
             >
               {movies &&
                 movies.map((movie) => (
-                  <Grid item key={movie._id}>
+                  <Grid item key={movie._id} xs={4}>
                     <Link className="movieContainer" to={`/movie/${movie._id}`}>
                       <Container className={classes.movieList}>
                         <img

@@ -37,7 +37,7 @@ const Login = () => {
 
   return (
     <Fragment>
-      <MetaData title="Sign in - IMDb" />;
+      <MetaData title="Sign in - IMDb" />
       {loading ? (
         <Loader />
       ) : (
