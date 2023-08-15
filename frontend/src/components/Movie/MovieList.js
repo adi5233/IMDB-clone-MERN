@@ -111,7 +111,7 @@ const MovieList = () => {
             >
               {movies &&
                 movies.map((movie) => (
-                  <Grid item key={movie._id} xs={4}>
+                  <Grid item key={movie._id}>
                     <Link className="movieContainer" to={`/movie/${movie._id}`}>
                       <Container className={classes.movieList}>
                         <img
